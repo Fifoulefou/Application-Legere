@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr"><!-- Définit la langue du document comme étant le français -->
+<head>
+    <meta charset="UTF-8"><!-- Définit l'encodage des caractères utilisé dans le document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Définit les dimensions de la vue sur les différents appareils -->
+    <title>MS Constructions</title><!-- Définit le titre de la page -->
+    <link rel="stylesheet" href="css.css"><!-- Lie le fichier CSS utilisé pour la mise en page -->
+</head>
+
+
+<body>
+
+  
+    <header><!--ENTETE PAGE WEB DEBUT-->
+        <div class="logo-container">
+            <img src="LOGO.jpg" alt="Logo" class="logo">
+            <h1 >MS Constructions</h1>
+        </div>
+        <nav>
+            <ul><!--Début Menue-->
+                <li><a href="Index.html">Accueil</a></li>
+                <li><a href="A propos de nous.html">À propos de nous</a></li>
+                <li><a href="Nous contacter.html">Nous contacter</a></li>
+            </ul><!--Fin Menue-->
+        </nav>
+    </header><!--ENTETE PAGE WEB FIN-->
+
+
+
+    <section class="about-section"> <!-- Divise le contenu en sections logiques -->
+      <h2 class="titre2">Contact</h2><!-- Affiche le titre de la section "Contact" -->
+  </section>
+
+
+
+    <div class="contact-section"><!-- Divise le contenu en blocs plus petits -->
+      <div class="contact-info">
+        <h2>Contactez-nous</h2><!-- Affiche le titre de la section "Contactez-nous" -->
+        <p>Msconstructionbatiment@gmail.com</p><!-- Affiche l'adresse e-mail de l'entreprise -->
+        <p>06.19.52.97.92</p>
+        <!-- Ajoutez la mini carte Google Maps ici -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.082940428351!2d0.16370671549476154!3d44.49909697910113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aae7e0f13a0d7d%3A0x8f2e236dd9a6e21d!2s12%20Rue%20d&#39;Escanteloup%2C%2047200%20Marmande!5e0!3m2!1sfr!2sfr!4v1618424475301!5m2!1sfr!2sfr" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <!--Début Formulaire de Contact -->
+      <div class="contact-form">
+        <h2>Envoyez-nous un message</h2>
+        <form>
+          <input type="text" placeholder="Nom" required>
+          <input type="email" placeholder="E-mail" required>
+          <textarea placeholder="Votre message" required></textarea>
+          <div class="gdpr-checkbox">
+            <input type="checkbox" id="gdpr" name="gdpr" required>
+            <label for="gdpr">J’ACCEPTE QUE MES DONNÉES À CARACTÈRE PERSONNEL SOIENT COLLECTÉES ET STOCKÉES LE TEMPS DU TRAITEMENT.</label>
+          </div>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </div>
+     <!--Fin Formulaire de Contact -->
+    
+
+
+
+
+
+
+
+
+ <!--Débutfooter -->
+    <footer> 
+        <div class="footer-container">
+          <div class="footer-left">
+            <p>Msconstructionbatiment@gmail.com</p>
+            <p>06.19.52.97.92</p>
+          </div>
+          <div class="footer-center">
+            <p>Mentions Légales Réservées</p>
+          </div>
+          <div class="footer-right">
+            <p>Lun. – Sam. : 7 h 30 – 19 h 00</p>
+            <p>Dim. : fermé</p>
+          </div>
+        </div>
+      </footer>
+   <!--FIN footer -->
+ <!--Liaison javascipt -->
+    <script src="scripts.js"></script>
+</body>
+</html>

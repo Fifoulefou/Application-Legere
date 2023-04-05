@@ -1,0 +1,431 @@
+/* Reset CSS */
+/*PAGE INDEX*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#fff8ee;
+    flex-wrap: nowrap;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Image de fond et texte */
+.hero {
+    position: relative;
+    background-image: url('IMAGE\ DE\ FOND\ .jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.hero-text {
+    position: absolute; /* Position absolue par rapport à .hero */
+    left: 40px; /* Ajouter un espace à gauche */
+    top: 50%; /* Centrer verticalement */
+    transform: translateY(-50%); /* Ajuster la position verticale pour un centrage précis */
+    text-align: left; /* Aligner le texte à gauche */
+}
+
+
+
+.hero h2,
+.hero p {
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 40px;
+}
+
+/* Article */
+article {
+    padding: 40px;
+}
+
+
+
+article img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+article h4 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+article p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px; 
+    max-height: 50px; 
+    height: auto;
+    width: auto;
+    margin-right: 15px; /* Ajoutez une marge à droite pour espacer le logo et le texte */
+}
+
+/* Ajoutez ces styles pour organiser les éléments de l'article */
+
+
+.about-text {
+    margin-bottom: 30px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-title {
+    font-size: 36px; /* Ajustez la taille de la police selon vos préférences */
+    text-decoration: underline;
+}
+
+
+.about-title2 {
+    text-decoration: underline;
+}
+
+
+/*PAGE A PROPOS DE NOUS*/ 
+.about-section {
+    background-color: #4c4a47;
+    height: 6cm; /* Hauteur de  cm */
+    display: flex;
+    align-items: center; /* Centrer le contenu verticalement */
+    justify-content: center; /* Centrer le contenu horizontalement */
+}
+
+.titre-a-propos-de-nous{
+    color: white;
+    font-size: 55px;
+    
+}
+.content-section {
+    background-color: #fff8ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .souligne {
+    text-decoration: underline;
+    font-size: 55px;
+
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .petit-texte {
+    font-size: 14px; 
+    margin-top: 20px; 
+  }
+  
+  .image-personnalisee {
+    width: 400px; 
+    height: 170px; 
+  }
+.presentation{
+    margin-top: 70px; 
+  
+        text-align: left;
+      
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 90px;
+  }
+  
+  img {
+    width: 30%;
+    margin: 1%;
+    object-fit: cover;
+    height: 200px;
+  }
+.image-row6{
+    transform: scale(4);
+    margin-top: 735px;
+    width: 80%; /* Largeur du conteneur (exemple : 80% de la largeur de l'écran) */
+    height: 500px; /* Hauteur du conteneur (exemple : 500 pixels) */
+    margin-left: 59px; 
+    margin-bottom: -290px;
+}
+
+.Paragraphe2{
+    margin-bottom: 10px;
+}
+
+.image-row1{
+    margin-top: 25px;
+}
+
+
+#custom-section {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .adjustable-line {
+    border: 0;
+    border-top: 2px solid #000;
+    width: 123%;
+    margin-right: -25%;
+  }
+  
+  .custom-title {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
+  .custom-button {
+    background-color: #ff9900;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color: #cc7a00;
+  }
+
+  footer {
+    padding: 20px;
+    background-color: black;
+    color:white;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%; /* Ajoutez cette ligne */
+  box-sizing: border-box; /* Ajoutez cette ligne */
+    margin: 0 auto;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .footer-center {
+    text-align: center;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer-container p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+    }
+  
+    .footer-left,
+    .footer-center,
+    .footer-right {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  .push-footer {
+    min-height: 20vh; /* Ajustez cette valeur pour modifier l'espace entre la section et le footer */
+  }
+  
+  
+/*  COOKIES   */
+
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    z-index: 1000;
+  }
+  
+  .cookie-button {
+    background-color: #ff9900;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cookie-button:hover {
+    background-color: #cc7a00;
+  }
+  
+  .refuse-button {
+    background-color: #999;
+    margin-left: 5px;
+  }
+  
+  .refuse-button:hover {
+    background-color: #666;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    margin-top: 0px; /* Ajoutez cette ligne pour décaler la section vers le bas */
+  }
+  
+  
+  .contact-info, .contact-form {
+    flex: 1;
+    margin:  20px;
+  }
+  
+  .contact-info h2, .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input[type="text"], .contact-form input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    padding: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .rgpd-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .rgpd-container label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+.titre2{
+  color: white;
+  font-size: 55px;
+}
+  
